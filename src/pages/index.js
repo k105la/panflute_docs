@@ -20,22 +20,18 @@ const features = [
   },
   {
     title: <></>,
+    imageUrl: '',
+    description: (
+      <></>
+    ),
+  },
+  {
+    title: <></>,
     imageUrl: './static/img/panflute_schematic.png',
     description: (
       <>
         There are two main components, the microcontroller running the show is the Attiny441
         and the HM-10 BLE board with provides bluetooth support.
-
-      </>
-    ),
-  },
-  {
-    title: <></>,
-    imageUrl: './static/img/panflute_tube.png',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
       </>
     ),
   },

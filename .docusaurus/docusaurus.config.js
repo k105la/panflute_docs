@@ -24,23 +24,27 @@ export default {
       ]
     },
     "footer": {
-      "style": "dark",
+      "style": "light",
       "links": [
         {
-          "title": "Docs",
+          "title": "DOCS",
           "items": [
             {
-              "label": "Style Guide",
-              "to": "docs/doc1"
+              "label": "Installation",
+              "to": "docs/installation"
             },
             {
-              "label": "Second Doc",
-              "to": "docs/doc2"
+              "label": "API Referance",
+              "to": "docs/api"
+            },
+            {
+              "label": "FAQ",
+              "to": "docs/faq"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "CHANNELS",
           "items": [
             {
               "label": "Discord",
@@ -49,7 +53,7 @@ export default {
           ]
         },
         {
-          "title": "Social",
+          "title": "COMMUNITY",
           "items": [
             {
               "label": "GitHub",

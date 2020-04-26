@@ -3,33 +3,22 @@
     "someSidebar": [
       {
         "type": "category",
-        "label": "Docusaurus",
+        "label": "Documentation",
         "items": [
           {
             "type": "link",
-            "label": "Style Guide",
-            "href": "/docs/doc1"
+            "label": "Installation",
+            "href": "/docs/installation"
           },
           {
             "type": "link",
-            "label": "Document Number 2",
-            "href": "/docs/doc2"
+            "label": "API Referance",
+            "href": "/docs/api"
           },
           {
             "type": "link",
-            "label": "This is Document Number 3",
-            "href": "/docs/doc3"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Features",
-        "items": [
-          {
-            "type": "link",
-            "label": "Powered by MDX",
-            "href": "/docs/mdx"
+            "label": "FAQ",
+            "href": "/docs/faq"
           }
         ]
       }
@@ -38,7 +27,6 @@
   "permalinkToSidebar": {
     "/docs/doc1": "someSidebar",
     "/docs/doc2": "someSidebar",
-    "/docs/doc3": "someSidebar",
-    "/docs/mdx": "someSidebar"
+    "/docs/doc3": "someSidebar"
   }
 }

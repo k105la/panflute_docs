@@ -32,12 +32,6 @@ export default [
   component: ComponentCreator('/docs/doc3'),
   exact: true,
   
-},
-{
-  path: '/docs/mdx',
-  component: ComponentCreator('/docs/mdx'),
-  exact: true,
-  
 }],
 },
   
