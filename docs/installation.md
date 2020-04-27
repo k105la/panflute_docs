@@ -12,3 +12,22 @@ Next you must hookup an ISP programmer to the ISP header pins on the PanFLUte bo
 
 1. Inside the *board* directory run `make` to build the firmware. 
 2. `make flash`
+
+## Blinking PanFLUte's on-board LED
+First you **must** import the LED library `#include driver/led.h` inside
+**main.c**.
+```
+
+#include "driver/led.h" 
+
+int main(void) {
+    ledInit(); 
+    while(1) {
+        idle_blink(500); // Blinks PanFLUte's on-board LED 
+    }
+    return 0;
+}
+
+```
+The library to use the on-board LED is simple and only needs two functions to
+work.
