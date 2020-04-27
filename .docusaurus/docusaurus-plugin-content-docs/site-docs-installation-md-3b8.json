@@ -1,12 +1,13 @@
 {
   "id": "installation",
-  "description": "![Image of PanFLUte with ISP](https://imgur.com/P6kJoAm.png)",
+  "title": "Getting Started with PanFLUte",
+  "description": "Installation instrutions",
   "source": "@site/docs/installation.md",
   "permalink": "/docs/installation",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/installation.md",
   "sidebar": "someSidebar",
   "next": {
-    "title": "API Referance",
+    "title": "Document Number 2",
     "permalink": "/docs/doc2"
   }
 }
