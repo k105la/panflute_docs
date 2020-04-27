@@ -7,7 +7,7 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/installation.md",
   "sidebar": "someSidebar",
   "next": {
-    "title": "Document Number 2",
+    "title": "API Referance",
     "permalink": "/docs/doc2"
   }
 }
