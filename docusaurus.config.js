@@ -1,10 +1,10 @@
 module.exports = {
   title: 'PanFLUte',
-  tagline: 'The tagline of my site',
+  tagline: 'An open source spirometer for everyone.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  favicon: 'img/logo.svg',
+  organizationName: 'COVID-19-electronic-health-system', // Usually your GitHub org/user name.
   projectName: 'panflute_docs', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -15,7 +15,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/installation',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',

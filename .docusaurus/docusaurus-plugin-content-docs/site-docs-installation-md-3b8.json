@@ -1,0 +1,12 @@
+{
+  "id": "installation",
+  "description": "![Image of PanFLUte with ISP](https://imgur.com/P6kJoAm.png)",
+  "source": "@site/docs/installation.md",
+  "permalink": "/docs/installation",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/installation.md",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "API Referance",
+    "permalink": "/docs/doc2"
+  }
+}

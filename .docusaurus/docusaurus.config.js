@@ -11,7 +11,7 @@ export default {
       },
       "links": [
         {
-          "to": "docs/doc1",
+          "to": "docs/installation",
           "activeBasePath": "docs",
           "label": "Docs",
           "position": "left"
@@ -66,11 +66,11 @@ export default {
     }
   },
   "title": "PanFLUte",
-  "tagline": "The tagline of my site",
+  "tagline": "An open source spirometer for everyone.",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
-  "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
+  "favicon": "img/logo.svg",
+  "organizationName": "COVID-19-electronic-health-system",
   "projectName": "panflute_docs",
   "presets": [
     [

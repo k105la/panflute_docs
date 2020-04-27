@@ -7,11 +7,11 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc2.md",
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Style Guide",
-    "permalink": "/docs/doc1"
+    "title": "Installation",
+    "permalink": "/docs/installation"
   },
   "next": {
-    "title": "This is Document Number 3",
+    "title": "FAQ",
     "permalink": "/docs/doc3"
   }
 }
