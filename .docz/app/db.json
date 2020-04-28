@@ -1,0 +1,133 @@
+{
+  "config": {
+    "title": "PanFLUte",
+    "description": "My awesome app using docz",
+    "menu": [
+      "Getting Started"
+    ],
+    "version": "2.0.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {
+      "logo": {
+        "src": "./src/logo.svg",
+        "width": 50
+      }
+    },
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/akilhyltonel/Desktop/panflute_docs/README.md",
+        "link": "",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "installation",
+            "depth": 3,
+            "value": "Installation"
+          },
+          {
+            "slug": "local-development",
+            "depth": 3,
+            "value": "Local Development"
+          },
+          {
+            "slug": "build",
+            "depth": 3,
+            "value": "Build"
+          },
+          {
+            "slug": "deployment",
+            "depth": 3,
+            "value": "Deployment"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/doc2.md",
+      "value": {
+        "id": "1e64e4c11c7842c7ccda2271a50c3b63",
+        "title": "Document Number 2",
+        "filepath": "docs/doc2.md",
+        "fullpath": "/Users/akilhyltonel/Desktop/panflute_docs/docs/doc2.md",
+        "link": "",
+        "hidden": false,
+        "slug": "docs-doc2",
+        "route": "/docs-doc2",
+        "name": "Doc2",
+        "menu": "",
+        "headings": []
+      }
+    },
+    {
+      "key": "docs/doc3.md",
+      "value": {
+        "id": "c68e6be5aa4b5d796c2c218268fea02b",
+        "title": "This is Document Number 3",
+        "filepath": "docs/doc3.md",
+        "fullpath": "/Users/akilhyltonel/Desktop/panflute_docs/docs/doc3.md",
+        "link": "",
+        "hidden": false,
+        "slug": "docs-doc3",
+        "route": "/docs-doc3",
+        "name": "Doc3",
+        "menu": "",
+        "headings": []
+      }
+    },
+    {
+      "key": "docs/installation.md",
+      "value": {
+        "id": "11d8910b58f5c70ccb3bedc0f37c892f",
+        "filepath": "docs/installation.md",
+        "fullpath": "/Users/akilhyltonel/Desktop/panflute_docs/docs/installation.md",
+        "link": "",
+        "hidden": false,
+        "slug": "docs-installation",
+        "route": "/docs-installation",
+        "name": "Installation",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "installation",
+            "depth": 2,
+            "value": "Installation"
+          },
+          {
+            "slug": "programming",
+            "depth": 2,
+            "value": "Programming"
+          },
+          {
+            "slug": "blinking-panflutes-on-board-led",
+            "depth": 2,
+            "value": "Blinking PanFLUte's on-board LED"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/components/Hero.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Hero",
+          "methods": [],
+          "actualName": "Hero"
+        }
+      ]
+    }
+  ]
+}

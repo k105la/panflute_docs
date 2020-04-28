@@ -1,37 +1,41 @@
-<div>
-<p align=center> 
-  <img src="https://imgur.com/P6kJoAm.png"/>
-</p> 
-</div>
+# Basic Docz example
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+## Using `create-docz-app`
 
-### Installation
-
-```
-$ yarn
+```sh
+npx create-docz-app docz-app-basic
+# or
+yarn create docz-app docz-app-basic
 ```
 
-### Local Development
+## Download manually
 
-```
-$ yarn start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```sh
+curl https://codeload.github.com/doczjs/docz/tar.gz/master | tar -xz --strip=2 docz-master/examples/basic
+mv basic docz-basic-example
+cd docz-basic-example
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Setup
 
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```sh
+yarn # npm i
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Run
+
+```sh
+yarn dev # npm run dev
+```
+
+## Build
+
+```sh
+yarn build # npm run build
+```
+
+## Serve built app
+
+```sh
+yarn serve # npm run serve
+```

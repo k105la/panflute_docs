@@ -1,30 +1,16 @@
 {
-  "name": "panflute-docs",
-  "version": "0.0.0",
-  "private": true,
+  "name": "docz-example-basic",
+  "version": "2.0.0",
+  "license": "MIT",
   "scripts": {
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy"
+    "dev": "docz dev",
+    "build": "docz build",
+    "serve": "docz serve"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.50",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.50",
-    "classnames": "^2.2.6",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "docz": "latest",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   }
 }
