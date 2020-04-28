@@ -1,41 +1,10 @@
-# Basic Docz example
+<div>
+<p align=center> 
+  <img src="https://imgur.com/P6kJoAm.png" width="250"/>
+</p> 
+<h3 align=center>
+  This page contains the full documention for <a href="https://github.com/COVID-19-electronic-health-system/PanFLUte" target="_blank">PanFLUte</a>.
+</h3>
+</div>
 
-## Using `create-docz-app`
-
-```sh
-npx create-docz-app docz-app-basic
-# or
-yarn create docz-app docz-app-basic
-```
-
-## Download manually
-
-```sh
-curl https://codeload.github.com/doczjs/docz/tar.gz/master | tar -xz --strip=2 docz-master/examples/basic
-mv basic docz-basic-example
-cd docz-basic-example
-```
-
-## Setup
-
-```sh
-yarn # npm i
-```
-
-## Run
-
-```sh
-yarn dev # npm run dev
-```
-
-## Build
-
-```sh
-yarn build # npm run build
-```
-
-## Serve built app
-
-```sh
-yarn serve # npm run serve
-```
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
